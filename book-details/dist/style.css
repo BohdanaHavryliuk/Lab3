@@ -1,0 +1,197 @@
+/* Основні стилі */
+body {
+    font-family: 'TT Norms', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F1E9; /* Світло-кремовий фон */
+    color: #2B463C; /* Темно-зелений текст */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Стилі для навігації */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2B463C; /* Темно-зелений фон */
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+nav a {
+    padding: 10px 15px;
+    background-color: #688F4E; /* Світло-зелений фон */
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #B1D182; /* Легкий зелений для ховера */
+}
+
+/* Основний макет */
+header {
+    background-color: #2B463C; /* Темно-зелений для хедеру */
+    padding: 20px 0;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Codec Pro', sans-serif; /* Заголовок шрифт */
+}
+
+main {
+    padding: 20px 0;
+    background-color: #F4F1E9;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Секція з детальною інформацією про книгу */
+.book-details {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #F9F9F9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.book-info {
+    width: 50%;
+}
+
+.book-info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.book-info p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.book-image {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.book-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-actions button {
+    padding: 10px 20px;
+    background-color: #688F4E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-actions button:hover {
+    background-color: #B1D182;
+}
+
+/* Підвал */
+footer {
+    background-color: #2B463C; /* Темно-зелений для футеру */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #B1D182;
+}
+
+/* Адаптивність */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+
+    nav ul {
+        flex-direction: column; /* Кнопки в одну колонку для мобільних пристроїв */
+        align-items: center;
+    }
+
+    .book-details {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .book-info {
+        width: 100%;
+    }
+
+    .book-image {
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .book-details {
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .book-info {
+        width: 60%;
+    }
+
+    .book-image {
+        width: 35%;
+    }
+}

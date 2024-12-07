@@ -1,0 +1,90 @@
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог книг - Онлайн бібліотека</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Заголовок -->
+    <header>
+        <div class="container">
+            <h1>Онлайн бібліотека - Каталог книг</h1>
+            <nav>
+                <ul>
+                    <li><a href="https://codepen.io/bogdanagav/pen/ByBoPPj">Головна</a></li>
+                    <li><a href="https://codepen.io/bogdanagav/pen/zxOvLma">Каталог книг</a></li>
+                    <li><a href="https://codepen.io/bogdanagav/pen/ZYzbMGR">Про нас</a></li>
+                    <li><a href="https://codepen.io/bogdanagav/pen/EaYVeVG">Підтримка</a></li>
+                    <li><a href="https://codepen.io/bogdanagav/pen/MYgaqKG">Блог</a></li>
+                    <li><a href="https://codepen.io/bogdanagav/pen/yyBYxOK">Вхід</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основний вміст -->
+    <main>
+        <section class="search">
+            <h2>Пошук книг</h2>
+            <form action="search-results.html" method="GET">
+                <input type="text" name="query" placeholder="Введіть назву книги або автора" required>
+                <button type="submit">Пошук</button>
+            </form>
+        </section>
+
+        <section class="genres">
+            <h3>Жанри</h3>
+            <ul>
+                <li><a href="#fiction">Художня література</a></li>
+                <li><a href="#non-fiction">Нехудожня література</a></li>
+                <li><a href="#audiobooks">Аудіокниги</a></li>
+                <li><a href="#magazines">Журнали</a></li>
+            </ul>
+        </section>
+
+        <section id="fiction" class="category">
+            <h3>Художня література</h3>
+            <ul>
+                <li><a href="https://codepen.io/bogdanagav/pen/WbeQKmp">Назва художньої книги 1</a></li>
+                <li><a href="https://codepen.io/bogdanagav/pen/WbeQKmp">Назва художньої книги 2</a></li>
+            </ul>
+        </section>
+
+        <section id="non-fiction" class="category">
+            <h3>Нехудожня література</h3>
+            <ul>
+                <li><a href="https://codepen.io/bogdanagav/pen/WbeQKmp">Назва нехудожньої книги 1</a></li>
+                <li><a href="https://codepen.io/bogdanagav/pen/WbeQKmp">Назва нехудожньої книги 2</a></li>
+            </ul>
+        </section>
+
+        <section id="audiobooks" class="category">
+            <h3>Аудіокниги</h3>
+            <ul>
+                <li><a href="https://codepen.io/bogdanagav/pen/WbeQKmp">Назва аудіокниги 1</a></li>
+                <li><a href="https://codepen.io/bogdanagav/pen/WbeQKmp">Назва аудіокниги 2</a></li>
+            </ul>
+        </section>
+
+        <section id="magazines" class="category">
+            <h3>Журнали</h3>
+            <ul>
+                <li><a href="https://codepen.io/bogdanagav/pen/WbeQKmp">Назва журналу 1</a></li>
+                <li><a href="https://codepen.io/bogdanagav/pen/WbeQKmp">Назва журналу 2</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Підвал -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Онлайн бібліотека. Всі права захищено.</p>
+            <ul>
+                <li><a href="https://codepen.io/bogdanagav/pen/emOpLBP">Політика конфіденційності</a></li>
+                <li><a href="https://codepen.io/bogdanagav/pen/EaYVeWM">Умови використання</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
