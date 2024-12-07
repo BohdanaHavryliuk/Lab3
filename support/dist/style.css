@@ -1,0 +1,40 @@
+@import 'https://codepen.io/bogdanagav/pen/MYgyOGe.css';
+@import 'https://codepen.io/bogdanagav/pen/QwLNOaW.css';
+@import 'https://codepen.io/bogdanagav/pen/ogvxopq.css';
+@import 'https://codepen.io/bogdanagav/pen/vEBGWpz.css';
+@import 'https://codepen.io/bogdanagav/pen/MYgyOQe.css';
+@import 'https://codepen.io/bogdanagav/pen/azoNVqy.css';
+/* Секція "Підтримка" */
+.support {
+  background-color: #F9F9F9;
+  padding: 20px;
+  border-radius: 5px;
+}
+.support h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #2B463C;
+  /* Темно-зелений для заголовка */
+}
+.support p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.support h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #2B463C;
+}
+.support ul {
+  list-style-type: none;
+  padding: 0;
+}
+.support ul li {
+  font-size: 18px;
+  margin: 5px 0;
+}
+.support ul li strong {
+  color: #688F4E;
+  /* Світло-зелений для важливих елементів */
+}

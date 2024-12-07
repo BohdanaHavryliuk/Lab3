@@ -1,0 +1,18 @@
+/* Основні стилі */
+body {
+    font-family: 'TT Norms', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F1E9; /* Світло-кремовий фон */
+    color: #2B463C; /* Темно-зелений текст */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}

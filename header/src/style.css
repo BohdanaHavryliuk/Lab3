@@ -1,0 +1,11 @@
+/* Основний макет */
+header {
+    background-color: #2B463C; /* Темно-зелений для хедеру */
+    padding: 20px 0;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Codec Pro', sans-serif; /* Заголовок шрифт */
+}

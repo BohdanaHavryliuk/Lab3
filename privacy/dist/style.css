@@ -1,0 +1,39 @@
+@import 'https://codepen.io/bogdanagav/pen/MYgyOGe.css';
+@import 'https://codepen.io/bogdanagav/pen/QwLNOaW.css';
+@import 'https://codepen.io/bogdanagav/pen/ogvxopq.css';
+@import 'https://codepen.io/bogdanagav/pen/vEBGWpz.css';
+@import 'https://codepen.io/bogdanagav/pen/MYgyOQe.css';
+@import 'https://codepen.io/bogdanagav/pen/azoNVqy.css';
+/* Секція "Політика конфіденційності" */
+.privacy-policy {
+  background-color: #F9F9F9;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+.privacy-policy h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #2B463C;
+  text-align: center;
+}
+.privacy-policy h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #2B463C;
+}
+.privacy-policy p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.privacy-policy ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 18px;
+}
+.privacy-policy ul li {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,55 @@
+@import 'https://codepen.io/bogdanagav/pen/MYgyOGe.css';
+@import 'https://codepen.io/bogdanagav/pen/QwLNOaW.css';
+@import 'https://codepen.io/bogdanagav/pen/ogvxopq.css';
+@import 'https://codepen.io/bogdanagav/pen/vEBGWpz.css';
+@import 'https://codepen.io/bogdanagav/pen/MYgyOQe.css';
+@import 'https://codepen.io/bogdanagav/pen/azoNVqy.css';
+/* Секція з детальною інформацією про книгу */
+.book-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #F9F9F9;
+  padding: 20px;
+  border-radius: 5px;
+}
+.book-info {
+  width: 50%;
+}
+.book-info h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.book-info p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+.book-image {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.book-image img {
+  width: 100%;
+  border-radius: 5px;
+}
+.book-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.book-actions button {
+  padding: 10px 20px;
+  background-color: #688F4E;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.book-actions button:hover {
+  background-color: #B1D182;
+}

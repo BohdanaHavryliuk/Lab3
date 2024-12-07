@@ -1,0 +1,65 @@
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація - Онлайн бібліотека</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Заголовок -->
+    <header>
+        <div class="container">
+            <h1>Онлайн бібліотека</h1>
+            <nav>
+                <ul>
+                    <li><a href="https://codepen.io/bogdanagav/pen/ByBoPPj">Головна</a></li>
+                    <li><a href="https://codepen.io/bogdanagav/pen/zxOvLma">Каталог книг</a></li>
+                    <li><a href="https://codepen.io/bogdanagav/pen/ZYzbMGR">Про нас</a></li>
+                    <li><a href="https://codepen.io/bogdanagav/pen/EaYVeVG">Підтримка</a></li>
+                    <li><a href="https://codepen.io/bogdanagav/pen/MYgaqKG">Блог</a></li>
+                    <li><a href="https://codepen.io/bogdanagav/pen/yyBYxOK">Вхід</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основний вміст -->
+    <main>
+        <section class="register">
+            <h2>Створіть акаунт</h2>
+            <p>Заповніть форму для реєстрації на нашому сайті.</p>
+            <form action="login.html" method="POST">
+                <div class="form-group">
+                    <label for="fullname">ПІБ</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Введіть ваше ПІБ" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Електронна пошта</label>
+                    <input type="email" id="email" name="email" placeholder="Введіть вашу електронну пошту" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password" name="password" placeholder="Введіть ваш пароль" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Підтвердження паролю</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Підтвердіть ваш пароль" required>
+                </div>
+                <button type="submit">Зареєструватись</button>
+            </form>
+            <p>Вже є акаунт? <a href="https://codepen.io/bogdanagav/pen/yyBYxOK">Увійти</a></p>
+        </section>
+    </main>
+
+    <!-- Підвал -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Онлайн бібліотека. Всі права захищено.</p>
+            <ul>
+                <li><a href="https://codepen.io/bogdanagav/pen/emOpLBP">Політика конфіденційності</a></li>
+                <li><a href="https://codepen.io/bogdanagav/pen/EaYVeWM">Умови використання</a></li>
+            </ul>
+        </div> 
+    </footer>
+</body>
+</html>

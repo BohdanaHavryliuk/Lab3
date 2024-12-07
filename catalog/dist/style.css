@@ -1,0 +1,77 @@
+@import 'https://codepen.io/bogdanagav/pen/MYgyOGe.css';
+@import 'https://codepen.io/bogdanagav/pen/QwLNOaW.css';
+@import 'https://codepen.io/bogdanagav/pen/ogvxopq.css';
+@import 'https://codepen.io/bogdanagav/pen/vEBGWpz.css';
+@import 'https://codepen.io/bogdanagav/pen/MYgyOQe.css';
+@import 'https://codepen.io/bogdanagav/pen/azoNVqy.css';
+/* Секція пошуку */
+.search {
+  margin-bottom: 40px;
+}
+.search form {
+  display: flex;
+  justify-content: center;
+}
+.search input[type="text"] {
+  padding: 10px;
+  width: 50%;
+  border: 1px solid #B1D182;
+  /* Легкий зелений контур */
+  border-radius: 5px;
+  font-size: 16px;
+}
+.search button {
+  padding: 10px 20px;
+  background-color: #688F4E;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.search button:hover {
+  background-color: #B1D182;
+}
+/* Секція жанрів */
+.genres ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+}
+.genres a {
+  padding: 10px 15px;
+  background-color: #688F4E;
+  /* Світло-зелений фон */
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.genres a:hover {
+  background-color: #B1D182;
+  /* Легкий зелений для ховера */
+}
+/* Категорії книг */
+.category h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.category ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.category ul li {
+  margin: 10px 0;
+  text-align: center;
+}
+.category ul li a {
+  font-size: 18px;
+  color: #2B463C;
+  transition: color 0.3s;
+}
+.category ul li a:hover {
+  color: #688F4E;
+}
